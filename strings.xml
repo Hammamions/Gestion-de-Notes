@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gestion de Notes</string>
+    <string name="moyenne_generale">Moyenne Générale</string>
+    <string name="partager_moyenne">Partager </string>
+    <string name="nom_de_la_matiere">Nom de matière</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="matieres">Matières</string>
+    <string name="nombre">nombre de matières:</string>
+    <string name="moyenne">Moyenne: 0.00</string>
+</resources>

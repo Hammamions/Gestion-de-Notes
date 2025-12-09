@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Type de note"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/textDark"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/spNoteType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_subject"
+        android:padding="12dp"/>
+
+    <TextView
+        android:text="Valeur (0-20)"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/textDark"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etNoteValue"
+        android:hint="Entrez la note"
+        android:inputType="numberDecimal"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_subject"
+        android:padding="12dp"
+        android:textColor="@color/textDark"/>
+
+    <Button
+        android:id="@+id/btnSaveNote"
+        android:text="@string/enregistrer"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/tealDeep"
+        android:textColor="@color/cardWhite"/>
+</LinearLayout>
